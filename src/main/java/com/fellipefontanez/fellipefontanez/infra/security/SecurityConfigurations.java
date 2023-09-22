@@ -20,7 +20,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity(securedEnabled = true)
-public class SecurityConfigurations {
+public class SecurityConfigurations  {
 
     @Autowired
     SecurityFilter securityFilter;
